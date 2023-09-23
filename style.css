@@ -33,6 +33,12 @@ body{
     margin-top: 80px;
 }
 
+@media screen and (max-width:750px){
+    .carousel-inner img {
+        height: 300px;
+    }
+}
+
 
 
 
@@ -122,13 +128,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 5px;
+    padding: 0 12px;
 }
 
 /* Style the contact info and quick links sections */
 .contact-info, .quick-links {
     flex: 1;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 /* Style the footer headings */
