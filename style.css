@@ -8,7 +8,8 @@
 }
 body{
     margin:0;
-    /* overflow: hidden; */
+    
+
 }
 .container{
     height: 130px;
@@ -121,13 +122,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 /* Style the contact info and quick links sections */
 .contact-info, .quick-links {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 /* Style the footer headings */
