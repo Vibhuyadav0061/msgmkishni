@@ -263,8 +263,9 @@ ul li a:hover {
 
 /* Add more CSS styles as needed for your specific design */
 
-.social-media-links i{
-    font-size: 50px;
+
+.social-media-links img {
+    height: 50px;
 }
 
 @media screen  and (max-width:750px){
