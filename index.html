@@ -145,37 +145,51 @@
   <form action="https://formspree.io/f/xbjvqalp"
   method="POST">
   <div class="contact_form_container">
-    <span class="close"><strong>&times;</strong></span>
-    <div class="form_fill_area">
-      <div>
-        <label for="sname">Student Name:</label>
-        <input type="text" minlength="3" maxlength="25"  id="sname" placeholder="name" name="Student_name" required>
-       </div>
-       <div>
-        <label for="fname">Father's Name:</label> 
-        <input type="text" minlength="3" maxlength="25"  id="fname" placeholder="name" name="father_name" required>
-       </div>
-        <div>
-          <label for="mname">Mother's Name:</label>
-        <input type="text" minlength="3" maxlength="25"  id="mname" placeholder="name" name="mother_name" required>
-        </div>
-        <div>
-          <label for="phone_no">Phone No. :</label>
-        <input type="tel" size="10" id="phone_no" pattern="[1-9]{1}[0-9]{2}[0-9]{3}[0-9]{4}" name="phone_no" required>
-        </div>
-        <div>
-          <label for="email">Email:</label>
-        <input type="email" minlength="10"  maxlength="35" id="email" name="email" required>
-    
-        </div>
-        <div>
-          <label for="query">Query:</label>
-          <textarea name="query" id="query"  minlength="10" maxlength="100" name="query"></textarea>
-        </div>
-        <div>
-          <input type="submit" value="Submit" class="form_submit" >
-        </div>
+    <div class="cross_box"><div><strong">SCHOOL CONTACT FORM</strong></div><span class="close"><strong>&times;</strong></span></div>
+    <div class="form_area">
+      <div class="form_area1">
+        <div class="flex flex-direction">
+          <label for="sname">Student Name:</label>
+          <input type="text" minlength="3" maxlength="25"  id="sname" placeholder="Student Name" name="Student_name" required>
+         </div>
+         <div class="flex flex-direction">
+          <label for="fname">Father's Name:</label> 
+          <input type="text" minlength="3" maxlength="25"  id="fname" placeholder="Fathers's Name" name="father_name" required>
+         </div>
+          <div class="flex flex-direction">
+            <label for="mname">Mother's Name:</label>
+          <input type="text" minlength="3" maxlength="25"  id="mname" placeholder="Mother's Name" name="mother_name" required>
+          </div>
+         
+      </div>
+        <div class="form_area1">
+          <div class="flex flex-direction">
+            <label for="phone_no">Phone No. :</label>
+            <input type="tel" size="10" id="phone_no" pattern="[6-9]{1}[0-9]{2}[0-9]{3}[0-9]{4}" name="phone_no" required>
+          </div>
+        
+          <div class="flex flex-direction">
+            <label for="email">Email:</label>
+            <input type="email" minlength="10"  maxlength="35" id="email" name="email" required>
+          </div>
+
+          <div class="flex flex-direction">
+            <label for="date_of_birth">D.o.b. :</label>
+            <input type="date"  id="date_of_birth"  name="Date of birth"   required>
+          </div>
+      </div>
+       
     </div>
+    <div class="form_bottom flex flex-direction">
+      <div class="query_box flex justify-content">
+        <label for="query">Query:</label>
+        <textarea name="query" id="query"  minlength="10" maxlength="100" name="query"></textarea>
+      </div>
+      <div class="form_submit">
+        <input type="submit" value="Submit" class="form_submit_btn" >
+      </div>
+    </div>
+    
   </div>
 </form>
 </section>
